@@ -1,0 +1,39 @@
+.pokemonDetailsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .pokemonDetailsPage h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemonDetailsPage img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .pokemonDetailsPage p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .pokemonDetailsPage a {
+    text-decoration: none;
+    color: #333;
+    background-color: #ffc107;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pokemonDetailsPage a:hover {
+    background-color: #ff9800;
+  }
+  
